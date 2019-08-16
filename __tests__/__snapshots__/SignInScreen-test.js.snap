@@ -1,0 +1,239 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Object {
+      "backgroundColor": "#5059ae",
+      "flex": 1,
+      "flexDirection": "column",
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    onLayout={[Function]}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#5059ae",
+          "flex": 1,
+          "flexDirection": "column",
+          "justifyContent": "center",
+        },
+        Object {
+          "paddingBottom": 0,
+        },
+      ]
+    }
+  >
+    <View
+      accessible={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#5059ae",
+          "flex": 1,
+          "flexDirection": "column",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#fff",
+              "flex": 1,
+              "height": 1334,
+            },
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#5059ae",
+              "bottom": 25,
+              "flexDirection": "row",
+              "height": 200,
+              "justifyContent": "center",
+              "left": 0,
+              "paddingHorizontal": 30,
+              "position": "absolute",
+              "right": 0,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#5059ae",
+              "flex": 1,
+              "flexDirection": "column",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "transparent",
+                "borderBottomWidth": 1,
+                "borderColor": "#D9D5DC",
+                "borderLeftWidth": 0,
+                "borderRadius": undefined,
+                "borderRightWidth": 0,
+                "borderTopWidth": 0,
+                "borderWidth": undefined,
+                "flexDirection": "row",
+                "marginBottom": 20,
+                "marginLeft": 2,
+                "opacity": 1,
+              }
+            }
+          >
+            <TextInput
+              allowFontScaling={true}
+              autoCapitalize="none"
+              autoCorrect={false}
+              editable={true}
+              keyboardType="email-address"
+              onChangeText={[Function]}
+              onSubmitEditing={[Function]}
+              placeholder="Username"
+              placeholderTextColor="#adb4bc"
+              rejectResponderTermination={true}
+              returnKeyType="next"
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "flex": 1,
+                    "fontSize": 17,
+                    "height": 50,
+                    "paddingLeft": 5,
+                    "paddingRight": 5,
+                    "top": 1.5,
+                  },
+                  Object {
+                    "color": "#fff",
+                    "flex": 1,
+                    "fontSize": 17,
+                    "fontWeight": "bold",
+                  },
+                ]
+              }
+              underlineColorAndroid="rgba(0,0,0,0)"
+            />
+          </View>
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "transparent",
+                "borderBottomWidth": 1,
+                "borderColor": "#D9D5DC",
+                "borderLeftWidth": 0,
+                "borderRadius": undefined,
+                "borderRightWidth": 0,
+                "borderTopWidth": 0,
+                "borderWidth": undefined,
+                "flexDirection": "row",
+                "marginBottom": 20,
+                "marginLeft": 2,
+                "opacity": 1,
+              }
+            }
+          >
+            <TextInput
+              allowFontScaling={true}
+              autoCapitalize="none"
+              autoCorrect={false}
+              editable={true}
+              onChangeText={[Function]}
+              placeholder="Password"
+              placeholderTextColor="#adb4bc"
+              rejectResponderTermination={true}
+              returnKeyType="go"
+              secureTextEntry={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#000",
+                    "flex": 1,
+                    "fontSize": 17,
+                    "height": 50,
+                    "paddingLeft": 5,
+                    "paddingRight": 5,
+                    "top": 1.5,
+                  },
+                  Object {
+                    "color": "#fff",
+                    "flex": 1,
+                    "fontSize": 17,
+                    "fontWeight": "bold",
+                  },
+                ]
+              }
+              underlineColorAndroid="rgba(0,0,0,0)"
+            />
+          </View>
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#b44666",
+                "borderRadius": 3,
+                "marginBottom": 20,
+                "opacity": 1,
+                "padding": 14,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#fff",
+                  "fontSize": 18,
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Sign In
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTSafeAreaView>
+`;

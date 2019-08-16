@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#5059ae",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#b44666",
+        "borderRadius": 3,
+        "marginTop": 50,
+        "opacity": 1,
+        "padding": 11,
+        "width": "80%",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#fff",
+          "fontSize": 18,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Accept Parcel
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#b44666",
+        "borderRadius": 3,
+        "marginTop": 50,
+        "opacity": 1,
+        "padding": 11,
+        "width": "80%",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#fff",
+          "fontSize": 18,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Reject Parcel
+    </Text>
+  </View>
+</View>
+`;

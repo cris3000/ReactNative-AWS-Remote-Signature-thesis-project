@@ -1,0 +1,249 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#5059ae",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#fff",
+        "fontSize": 18,
+        "fontWeight": "bold",
+        "padding": 10,
+      }
+    }
+  >
+    Icon Definitions
+  </Text>
+  <Text
+    style={
+      Object {
+        "color": "#fff",
+        "flexDirection": "column",
+        "fontSize": 12,
+        "fontWeight": "bold",
+        "padding": 0,
+      }
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      style={
+        Array [
+          Object {
+            "fontFamily": "Ionicons",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {
+            "color": undefined,
+            "fontSize": 30,
+          },
+          Object {
+            "color": "#2fb007",
+          },
+        ]
+      }
+    >
+      
+    </Text>
+       Home
+     
+      
+    <Text
+      allowFontScaling={false}
+      style={
+        Array [
+          Object {
+            "fontFamily": "Ionicons",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {
+            "color": undefined,
+            "fontSize": 30,
+          },
+          Object {
+            "color": "#2fb007",
+          },
+        ]
+      }
+    >
+      
+    </Text>
+     Add Delivery to Database
+  </Text>
+  <Text
+    style={
+      Object {
+        "color": "#fff",
+        "flexDirection": "column",
+        "fontSize": 12,
+        "fontWeight": "bold",
+        "padding": 0,
+      }
+    }
+  >
+      
+    <Text
+      allowFontScaling={false}
+      style={
+        Array [
+          Object {
+            "fontFamily": "Ionicons",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {
+            "color": undefined,
+            "fontSize": 30,
+          },
+          Object {
+            "color": "#2fb007",
+          },
+        ]
+      }
+    >
+      
+    </Text>
+     
+     
+     Available Deliveries
+     
+      
+    <Text
+      allowFontScaling={false}
+      style={
+        Array [
+          Object {
+            "fontFamily": "Ionicons",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {
+            "color": undefined,
+            "fontSize": 30,
+          },
+          Object {
+            "color": "#2fb007",
+          },
+        ]
+      }
+    >
+      
+    </Text>
+     Delivery Response   
+  </Text>
+  <Text
+    style={
+      Object {
+        "color": "#fff",
+        "flexDirection": "column",
+        "fontSize": 12,
+        "fontWeight": "bold",
+        "padding": 0,
+      }
+    }
+  >
+      
+    <Text
+      allowFontScaling={false}
+      style={
+        Array [
+          Object {
+            "fontFamily": "Ionicons",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {
+            "color": undefined,
+            "fontSize": 30,
+          },
+          Object {
+            "color": "#2fb007",
+          },
+        ]
+      }
+    >
+      
+    </Text>
+       Map   
+  </Text>
+  <View>
+    <View
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    />
+  </View>
+  <Text
+    style={
+      Object {
+        "color": "#fff",
+        "fontSize": 25,
+        "fontWeight": "bold",
+        "padding": 10,
+      }
+    }
+  >
+    Instructions 
+  </Text>
+  <Text
+    style={
+      Object {
+        "color": "#fff",
+        "fontSize": 18,
+        "fontWeight": "bold",
+        "padding": 10,
+      }
+    }
+  >
+    Check Delivery List and Submit Request on the necessary Delivery
+  </Text>
+  <Text
+    style={
+      Object {
+        "color": "#fff",
+        "fontSize": 18,
+        "fontWeight": "bold",
+        "padding": 10,
+      }
+    }
+  >
+    Add Delivery to database by Inputting Delivery Details on Delivery Page
+  </Text>
+  <Text
+    style={
+      Object {
+        "color": "#fff",
+        "fontSize": 18,
+        "fontWeight": "bold",
+        "padding": 10,
+      }
+    }
+  >
+    Check Response Page for the Customers Reponse
+  </Text>
+  <Text>
+     
+  </Text>
+</View>
+`;

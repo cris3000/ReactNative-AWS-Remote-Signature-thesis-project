@@ -1,0 +1,44 @@
+{
+  "name": "UniFinalApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@aws-amplify/auth": "^1.2.24",
+    "@aws-amplify/core": "^1.0.27",
+    "aws-amplify": "^1.1.28",
+    "aws-amplify-react-native": "^2.1.12",
+    "native-base": "^2.8.0",
+    "react": "16.8.3",
+    "react-native": "0.59.9",
+    "react-native-countdown-component": "^2.5.0",
+    "react-native-elements": "^1.1.0",
+    "react-native-fingerprint-scanner": "^2.6.1",
+    "react-native-firebase": "^5.4.3",
+    "react-native-geocoding": "^0.3.0",
+    "react-native-ionicons": "^4.5.6",
+    "react-native-maps": "^0.24.2",
+    "react-native-maps-directions": "^1.7.0",
+    "react-navigation": "^2.8.0",
+    "react-timer-mixin": "^0.13.4",
+    "toggle-switch-react-native": "^2.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/runtime": "^7.4.5",
+    "babel-jest": "^24.8.0",
+    "jest": "^24.8.0",
+    "metro-react-native-babel-preset": "^0.54.1",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native",
+    "transformIgnorePatterns": [
+      "/node_modules/(?!native-base)/"
+    ]
+
+  }
+}

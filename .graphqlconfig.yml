@@ -1,0 +1,12 @@
+projects:
+  FinalGraphQLAPI:
+    schemaPath: src\graphql\schema.json
+    includes:
+      - src
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: javascript
+        generatedFileName: ''
+        docsFilePath: src\graphql
